@@ -1,38 +1,35 @@
-# 🍜 Asian Kitchen Menü Projesi 🍣
+# Asian Kitchen Menu 
 
-Bu proje, farklı kategorilerdeki yiyecekleri listeleyen ve filtreleme özelliği sunan basit bir menü uygulamasıdır. HTML, CSS ve JavaScript kullanılarak geliştirilmiştir.
+Bu proje, basit bir HTML, CSS ve JavaScript kullanılarak oluşturulmuş bir Asya mutfağı menü uygulamasıdır. Kullanıcı dostu arayüzü sayesinde yemekleri kolayca listeleyebilir ve görsel olarak şık bir şekilde sunabilirsiniz.
 
-## ✨ Özellikler
+## ✅ Proje Dosyaları
 
-* **Dinamik Menü Listeleme**: `app.js` dosyasında tanımlanan menü öğeleri otomatik olarak listelenir.
-* **Kategoriye Göre Filtreleme**: "All" (Tümü), "Korea" (Kore), "Japan" (Japonya) ve "China" (Çin) gibi kategorilere göre menü öğeleri filtrelenebilir.
-* **Duyarlı Tasarım**: Bootstrap kullanılarak farklı ekran boyutlarına uyum sağlar.
-* **Modern Arayüz**: Temiz ve kullanımı kolay bir arayüze sahiptir.
+- `index.html` : Ana HTML sayfası
+- `style.css` : Tüm stil ayarlarını içerir
+- `app.js` : JavaScript dosyası, menü işlevselliğini sağlar
+- `readme.md` : Proje hakkında bilgiler
 
-## 🚀 Nasıl Çalışır?
+## 🌟 Özellikler
 
-1.  `index.html` dosyası uygulamanın ana yapısını oluşturur.
-2.  `style.css` dosyası uygulamanın görsel stilini sağlar.
-3.  `app.js` dosyası ise menü verilerini yönetir, kategori butonlarını oluşturur ve menü öğelerini dinamik olarak sayfaya ekler.
+- Basit ve estetik HTML & CSS tasarımı
+- Farklı yemek kategorileri görsel olarak sunulur
+- JavaScript ile dinamik içerik güncelleme
 
-### `app.js` Detayları:
+## 📅 Kullanım
 
-* `menu` dizisi, her bir menü öğesinin `id`, `title`, `category`, `price`, `img` ve `desc` gibi özelliklerini içerir.
-* `categories` dizisi, menü öğelerinden benzersiz kategorileri (ve "All" kategorisini) toplar.
-* `categoryList()` fonksiyonu, kategori butonlarını dinamik olarak oluşturur ve sayfaya ekler. Bu butonlara tıklandığında ilgili kategoriye ait menü öğeleri filtrelenir.
-* `menuList()` fonksiyonu, verilen menü öğeleri dizisini alarak HTML yapısını oluşturur ve `section-center` div'ine yerleştirir.
+Projeyi kendi bilgisayarınıza klonlayın:
 
-## 🛠️ Kurulum
-
-1.  Projeyi klonlayın veya indirin.
-2.  `index.html` dosyasını bir web tarayıcısında açın.
-
-Bu kadar! 🎉
-
-## 📂 Proje Yapısı
+```bash
+git clone https://github.com/ekinnn35/Asian-Kitchen-Menu
 ```
-.
-├── app.js
-├── index.html
-└── style.css
-```
+
+Tarayıcıda çalıştırmak için `index.html` dosyasını açabilirsiniz.
+
+## 🧱 Ekin Öztürk
+
+- ✨ [LinkedIn](https://www.linkedin.com/in/ekin-%C3%B6zt%C3%BCrk-a06659249/)
+- 💻 [GitHub](https://github.com/ekinnn35)
+
+---
+
+Bu proje Ekin Öztürk tarafından front-end öğrenim sürecinde geliştirilmiştir.
